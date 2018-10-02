@@ -5,7 +5,7 @@ Just a quick text summarizer algorithm I thought up. Definitely isn't perfect, b
 
 How to use:
 ``` python
-In [42]: start("This is a test paragraph! Woah, cool, test paragraphs, amazing! I'm just trying to fill in the void here with meaningless nonsense, so please bear with me. Haha, I made a bear joke, get it? Wait...I need to talk about something relating to actual bears before I do that, hmm. Oh, well, I thought it was funny, and that's all that matters. Haha, ha, ha...ha...", .25)
-Out[42]: ("I'm just trying to fill in the void here with meaningless nonsense, so please bear with me. Wait...I need to talk about something relating to actual bears before I do that, hmm. Oh, well, I thought it was funny, and that's all that matters.",
+In [1]: start("This is a test paragraph! Woah, cool, test paragraphs, amazing! I'm just trying to fill in the void here with meaningless nonsense, so please bear with me. Haha, I made a bear joke, get it? Wait...I need to talk about something relating to actual bears before I do that, hmm. Oh, well, I thought it was funny, and that's all that matters. Haha, ha, ha...ha...", .25)
+Out[1]: ("I'm just trying to fill in the void here with meaningless nonsense, so please bear with me. Wait...I need to talk about something relating to actual bears before I do that, hmm. Oh, well, I thought it was funny, and that's all that matters.",
  'Reduced by: 33.15%.')
  ```
