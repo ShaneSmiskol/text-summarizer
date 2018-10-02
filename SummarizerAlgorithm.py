@@ -4,8 +4,7 @@ percentage=.25 #percentage of sentences to remove, for example a value of .25 wi
 def start(text="",percentage=percentage):
     if text=="":
         text=raw_input("Enter text: ")
-        print
-        print "Output:"
+        print "\nOutput:"
     text=text.replace('\n',' ')
     occurancedict={}
     sentences=splitparagraph(text)
